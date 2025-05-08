@@ -1,6 +1,7 @@
-# Thoughtful - Full Stack Shell Application
+# Thoughtful - Full Stack Application
 
-A modern full-stack shell application built with TypeScript, Node.js, and React.
+## Interview
+interview.ts contains the interview question answer from https://thoughtfulautomation.notion.site/Platform-Technical-Screen-b61b6f6980714c198dc49b91dd23d695
 
 ## Project Structure
 
@@ -31,7 +32,7 @@ thoughtful/
 This will start both the backend and frontend servers concurrently.
 
 - Backend will run on: http://localhost:3000
-- Frontend will run on: http://localhost:5173
+- Frontend will run on: http://localhost:3001
 
 ## Available Scripts
 
