@@ -12,7 +12,8 @@ function sort(width: number, height: number, length: number, mass: number): Pack
         return "REJECTED"
     }
     
-    //isOverweight || isBulky is works but it is dependent on the previous statment
+    // isOverweight || isBulky works but it is dependent on the previous statment. 
+    // we like to have a clear independence of the two to make understanding the code easier.
     if (isOverweight != isBulky) { // one is true, one is false (XOR)
         return "SPECIAL"
     }
