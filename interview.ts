@@ -13,7 +13,7 @@ function sort(width: number, height: number, length: number, mass: number): Pack
     }
     
     // isOverweight || isBulky works but it is dependent on the previous statment. 
-    // we like to have a clear independence of the two to make understanding the code easier.
+    // We like to have clear seperation/independence between the two to make understanding the code easier.
     if (isOverweight != isBulky) { // one is true, one is false (XOR)
         return "SPECIAL"
     }
